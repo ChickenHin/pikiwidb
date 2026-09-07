@@ -1,11 +1,11 @@
 name: Release Drafter
 
 on:
-  push:
-    branches:
-      - unstable
-  pull_request_target:
-    types: [ opened, reopened, synchronize ]
+  # push:
+  #   branches:
+  #     - unstable
+  # pull_request_target:
+  #   types: [ opened, reopened, synchronize ]
 
 permissions:
   contents: read
