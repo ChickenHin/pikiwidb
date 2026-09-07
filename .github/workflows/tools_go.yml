@@ -1,14 +1,14 @@
 name: Tools_go_build
 
 on:
-  push:
-    branches: [ "unstable", "3.5" , "4.0"]
-    paths:
-      - 'tools/**'
-  pull_request:
-    branches: [ "unstable", "3.5" , "4.0"]
-    paths:
-      - 'tools/**'
+  # push:
+  #   branches: [ "unstable", "3.5" , "4.0"]
+  #   paths:
+  #     - 'tools/**'
+  # pull_request:
+  #   branches: [ "unstable", "3.5" , "4.0"]
+  #   paths:
+  #     - 'tools/**'
 
 jobs:
 
